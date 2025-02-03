@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.productitem {
+  transition: transform 0.3s ease-in-out;
+}
+
+.productitem:hover {
+  transform: scale(1.05);
+}
+
+.cartitems {
+  transition: transform 0.3s ease-in-out;
+}
+
+.cartitems:hover {
+  transform: scale(1.05);
+}

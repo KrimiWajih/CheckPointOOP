@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="flex flex-row w-[100%] h-[1400px]">
+      <div class="left w-[75%] h-[70%] flex flex-col">
+        <div class="top">
+          <div
+            class="listproducts h-[25%] p-8 t-8 flex flex-row flex-wrap gap-10"
+          ></div>
+        </div>
+
+        <div class="cart h-[auto] flex flex-col gap-0"></div>
+      </div>
+      <div class="right w-[25%] h-[auto] bg-[#202020]">
+        <div
+          class="flex justify-between gap-50 rounded-[6px] sticky top-0 bg-gray-300 mt-2"
+        >
+          <p class="font-bold text-3xl text-orange-500 pl-2 h-[40px]">Total</p>
+          <h1 class="total font-bold text-2xl">0</h1>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
